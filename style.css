@@ -1,0 +1,84 @@
+
+body{
+    background-color: white  ;
+    font-family: 'Times New Roman', Helvetica, sans-serif, serif;
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+    padding: 8px;
+    font-family: "Playfair Display";
+}
+
+.navbutton{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid white ;
+    border-radius: 12%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+body > footer{
+    background-color: pink;
+    color: white;
+}
+
+form{
+    text-align: center;
+}
+
+h2{ 
+    text-align: center;
+}
+
+img{
+    border-radius: 100%;
+}
+
+#main-header{
+    background-color: pink;
+    display: flex;
+    color: white;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul>li{
+    padding: 8px;
+    margin: 16px;
+}
+
+body>footer{
+    display: flex;
+}
+
+#footer-ul{
+    display: flex;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content aside{
+    width: 20%;
+}
